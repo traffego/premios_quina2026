@@ -21,7 +21,3 @@ admin/___guardar-affiliates/
 *.zip
 *.backup
 .DS_Store
-
-# Mídia dinâmica de campanhas e clientes
-uploads/campanhas/
-uploads/customers/
