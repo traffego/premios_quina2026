@@ -90,7 +90,7 @@ $youtube_footer = $_settings->info('youtube_footer');
     
    © Copyright <?= date('Y'); ?> - <?= $_settings->info('name'); ?>. Todos os direitos reservados.<br>
 
-   Desenvolvido por <a href="https://wa.me/5521981612199" target="_blank" class="font-weight-600 font-xs badge" rel="noreferrer" style="background-color:#ff7e01;">VTEX DIGITAL</a>
+   Desenvolvido por <span class="font-weight-600 font-xs badge" style="background-color:#ff7e01;">VTEX DIGITAL</span>
 </p>
 </div>
 
