@@ -1,0 +1,27 @@
+node_modules/
+.env
+data/auth_info/
+*.pem
+*.sql
+*.lock
+initialize.php
+
+# Scripts avulsos com credenciais de banco
+compara_bancos.php
+migra_pedidos.php
+executar_migracao.php
+
+# Logs, arquivos temporários e regras locais
+*.log
+scratch/
+admin/___guardar-affiliates/
+.agents/
+
+# Backups e metadados
+*.zip
+*.backup
+.DS_Store
+
+# Mídia dinâmica de campanhas e clientes
+uploads/campanhas/
+uploads/customers/
