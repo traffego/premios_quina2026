@@ -333,16 +333,26 @@ if (isset($first_purchase_enabled) && $first_purchase_enabled == 1) {
         display: none !important;
     }
 
-    .sorteio_sorteioShare__247_t .comunidade .btn-primary,
-    .sorteio_sorteioShare__247_t .comunidade .btn-primary:hover,
-    .sorteio_sorteioShare__247_t .comunidade .btn-primary:focus,
-    .sorteio_sorteioShare__247_t .comunidade .btn-primary:active {
-        background-color: #0d6efd;
-        border-color: #0d6efd;
+    .sorteio_sorteioShare__247_t .whatsapp-grupo .btn-success,
+    .sorteio_sorteioShare__247_t .whatsapp-grupo .btn-success:hover,
+    .sorteio_sorteioShare__247_t .whatsapp-grupo .btn-success:focus,
+    .sorteio_sorteioShare__247_t .whatsapp-grupo .btn-success:active {
+        background-color: #1b9e4b;
+        border-color: #1b9e4b;
         color: #ffffff;
     }
 
-    .sorteio_sorteioShare__247_t .comunidade .btn-primary:hover {
+    .sorteio_sorteioShare__247_t .comunidade .btn-success,
+    .sorteio_sorteioShare__247_t .comunidade .btn-success:hover,
+    .sorteio_sorteioShare__247_t .comunidade .btn-success:focus,
+    .sorteio_sorteioShare__247_t .comunidade .btn-success:active {
+        background-color: #0f5132;
+        border-color: #0f5132;
+        color: #ffffff;
+    }
+
+    .sorteio_sorteioShare__247_t .whatsapp-grupo .btn-success:hover,
+    .sorteio_sorteioShare__247_t .comunidade .btn-success:hover {
         opacity: 0.9;
     }
 
@@ -1800,7 +1810,7 @@ function redirectToPromoLogin() {
             ?>
                 <a href="<?= htmlspecialchars($whatsapp_group_url, ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener noreferrer">
                     <div class="comunidade">
-                        <div class="btn btn-sm btn-primary text-white mb-1 w-100"><i class="bi bi-people-fill"></i> Comunidade</div>
+                        <div class="btn btn-sm btn-success text-white mb-1 w-100"><i class="bi bi-whatsapp"></i> Comunidade</div>
                     </div>
                 </a>
             <?php
